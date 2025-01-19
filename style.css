@@ -370,3 +370,88 @@ body {
         width: 100%;
     }
 }
+
+.box-text {
+    text-align: center;
+    margin: 100px auto;
+    width: 50%;
+}
+
+.box-text div {
+
+}
+
+.div-pix {
+    text-align: center;
+    margin: 50px auto;
+}
+
+.div-pix p {
+    width: 50%;
+    margin: 0 auto;
+}
+
+.pix-img {
+    width: 50%;
+    height: 50vh;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+
+}
+.pix-img p {
+    margin-bottom: 20px;
+}
+.pix-img img {
+    width: 100%;
+    height: auto;
+    margin-left: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+
+}
+
+/* styles.css */
+
+.image-gallery {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.image-gallery h1 {
+    margin-bottom: 20px;
+    color: #007BFF;
+}
+
+.image-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 0;
+}
+
+.image-item {
+    background: #f9f9f9;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.image-item img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.image-item p {
+    margin: 10px 0;
+    font-size: 14px;
+    color: #666;
+}
